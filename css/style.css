@@ -1,0 +1,78 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.title span {
+    color: #925C71;
+    font-size: 30px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main img {
+    max-height: 300px;
+}
+
+.main-info-flex {
+    display: flex;
+}
+
+.main-info a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #925C71;
+}
+
+.form {
+    max-width: 420px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.form input {
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(175, 171, 171)
+}
+
+.form button {
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    background: #925C71;
+    color: white;
+    border: 0;
+}
+
+/*изменения цвета кнопки при наведении на нее*/
+
+.form button:hover {
+    background: #88234a;
+    color: black;
+    border: black 1px solid;
+}
+
+.main-info a:hover {
+    color: #000000;
+}
